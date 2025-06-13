@@ -1,0 +1,24 @@
+{
+  "name": "draganddrop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "predeploy": "echo 'No build step needed'",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omhankare/drag-and-drop-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Omhankare/drag-and-drop-builder/issues"
+  },
+  "homepage": "https://Omhankare.github.io/drag-and-drop-builder",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
