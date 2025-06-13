@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <h2>Drag And Drop</h2>
+      </div>
+
+      <div class="sidebar">
+        <h3>Elements</h3>
+        <div class="draggable" draggable="true" data-type="text">Text</div>
+        <div class="draggable" draggable="true" data-type="button">Button</div>
+        <div class="draggable" draggable="true" data-type="image">Image</div>
+      </div>
+
+      <div class="canvas" id="canvas">Drop elements here</div>
+
+      <div class="editor" id="editor">
+        <h3>Edit Properties</h3>
+
+        <form id="edit-form">
+          <label>Text/URL: <input type="text" id="drop-text" /> </label>
+          <label>Font Size: <input type="text" id="drop-size" /></label>
+          <label>Color: <input type="text" id="drop-color" /></label>
+          <button type="submit" id="apply">Apply</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
